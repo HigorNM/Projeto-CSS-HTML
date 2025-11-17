@@ -4,11 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bem vindo!</title>
+
+	<link rel="stylesheet" href="coisas.css">
+
+	<link rel="icon" type="image/png" href="bloco.png">
+
 </head>
 
 <body>
 
-<ul>
+<div class="sumario">
+
+<h1>Sumário</h1>
+<div class="subtitulo">Clique para ir até o local da página que o assunto referenciado está</div>
+<hr>
+
+	<ul>
 	<li><a href="#mine">O que é minecraft</a></li>
 	<li><a href="#jogar">Jogabilidade</a></li>
 	<li>
@@ -20,12 +31,12 @@
 			<li><a href="#aventura">Aventura</a></li>
 			<li><a href="#espectador">Espectador</a></li>
 		</ul>
-
 	</li>
 	<li><a href="#multi">Multijogador</a></li>
 	<li><a href="#mods">Modificações</a></li>
-</ul>
+	</ul>
 
+</div>
 
 <h2 id="mine">O que é minecraft?</h2>
 
@@ -111,10 +122,101 @@ O modo multijogador em Minecraft está disponível através do multijogador dire
 
 <h2 id="mods">Modificações</h2>
 
+<p>
+As modificações do Minecraft, popularmente conhecidas como mods, representam um aspecto fundamental da cultura de customização do jogo, com implementações significativamente diferentes entre as edições Java e Bedrock.
+</p>
 
+<h2>Visão geral</h2>
 
+<p>
+Minecraft, desenvolvido pela Mojang Studios, existe em duas versões principais com arquiteturas distintas: a Edição Java (original para PC) e a Edição Bedrock (multiplataforma escrita em C++). Esta diferença técnica fundamental resulta em abordagens radicalmente diferentes para modificações e customizações.
+</p>
 
+<h2>java Edition</h2>
 
+<p>
+A Edição Java, sendo a versão original do jogo, desenvolveu organicamente uma cena de modificações não-oficial desde seus primórdios (2010-2011). Sua arquitetura baseada em Java e sistema de classes abertas facilitaram a engenharia reversa e manipulação do código.
+</p>
+
+<h3>Sistemas de Carregamento (Loaders):</h3>
+
+<ul>
+	<li><b>Forge (2011)</b> – O primeiro loader amplamente adotado, conhecido por estabilidade e compatibilidade</li>
+	<li><b>Fabric (2018)</b> – Alternativa mais moderna com menor overhead, popular para mods técnicos</li>
+	<li><b>LiteLoader</b> – Solução mais leve para mods menores</li>
+</ul>
+
+<h3>Exemplos Notáveis de Mods:</h3>
+
+<ul>
+	<li><b>Aether:</b> Adiciona dimensão flutuante com conteúdo inédito</li>
+	<li><b>Tinkers' Construct:</b> Sistema avançado de fabricação de ferramentas</li>
+	<li><b>Thaumcraft:</b> Adiciona sistema de magia e pesquisa complexo</li>
+	<li><b>Create:</b> Sistema de engenharia e automação realista</li>
+</ul>
+
+<h2>Bedrock Edition</h2>
+
+<p>
+A Bedrock Edition introduziu os add-ons como sistema oficial de modificação, permitindo customização através de:
+</p>
+
+<ul>
+	<li><b>Behavior Packs</b> – Alteram comportamentos de entidades, blocos e itens</li>
+	<li><b>Resource Packs</b> – Modificam texturas, modelos, sons e linguagens</li>
+	<li><b>Scripting</b> – Usando JavaScript para adicionar funcionalidades</li>
+</ul>
+
+<h3>Limitações Técnicas:</h3>
+
+<ul>
+	<li>Acesso restrito a APIs específicas, sem modificação direta do código núcleo</li>
+	<li>Sandbox de segurança que previne alterações profundas no motor do jogo</li>
+	<li>Distribuição primária através do Marketplace oficial</li>
+</ul>
+
+<h3>Vantagens:</h3>
+
+<ul>
+	<li>Compatibilidade garantida entre plataformas</li>
+	<li>Instalação simplificada para usuários finais</li>
+	<li>Suporte oficial da Mojang/Microsoft</li>
+</ul>
+
+<h2>Comparações técnicas</h2>
+
+<table>
+  <tr>
+   	<th>Característica</th>
+    <th>Java Edition</th>
+    <th>Bedrock Edition</th>
+  </tr>
+  <tr>
+    <th>Acesso ao código</th>
+    <td>Ilimitado</td>
+    <td>Restrito a APIs</td>
+  </tr>
+  <tr>
+    <th>Instalação</th>
+    <td>Manual/Launchers especializados</td>
+    <td>Marketplace</td>
+  </tr>
+  <tr>
+    <th>Performance</th>
+    <td>MUITO variável</td>
+    <td>Otimizada</td>
+  </tr>
+  <tr>
+    <th>Compatibilidade Multiplataforma</th>
+    <td>Nâo</td>
+    <td>Sim</td>
+  </tr>
+  <tr>
+    <th>Complexidade possível</th>
+    <td>Muito alta</td>
+    <td>Moderada</td>
+  </tr>
+</table>
 
 </body>
 
