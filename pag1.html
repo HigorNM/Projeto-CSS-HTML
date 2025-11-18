@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bem vindo!</title>
 
-	<link rel="stylesheet" href="coisas.css">
+	<link rel="stylesheet" href="coisax.css">
 
 	<link rel="icon" type="image/png" href="bloco.png">
 
@@ -13,18 +13,22 @@
 
 <body>
 
+<div class="pai">
+
 <div class="sumario">
 
 <h1>Sumário</h1>
-<div class="subtitulo">Clique para ir até o local da página que o assunto referenciado está</div>
+<a href="https://pt.wikipedia.org/wiki/Minecraft" target="blanch" class="fonte">Fonte</a>
 <hr>
+<div class="subtitulo">Clique para ir até o local da página que o assunto referenciado está</div><br>
 
-	<ul>
+
+	<ul class="lista1">
 	<li><a href="#mine">O que é minecraft</a></li>
 	<li><a href="#jogar">Jogabilidade</a></li>
 	<li>
 		<b><a href="#modos">Modos de jogo</a></b>
-		<ul>
+		<ul class="lista2">
 			<li><a href="#sobreviver">Sobrevivência</a></li>
 			<li><a href="#zoio">Hardcore</a></li>
 			<li><a href="#felipeneto">criativo</a></li>
@@ -33,15 +37,34 @@
 		</ul>
 	</li>
 	<li><a href="#multi">Multijogador</a></li>
-	<li><a href="#mods">Modificações</a></li>
+	<li><a href="#mods">Modificações</a>
+		<ul class="lista2">
+			<li><a href="#java">Java Edition</a>
+				<ul class="lista3">
+					<li><a href="#loaders">Sistemas de Carregamento (Loaders)</a></li>
+					<li><a href="#exemplos">Exemplos notáveis de mods</a></li>
+				</ul>
+			</li>
+			<li><a href="#bedrock">Bedrock Edition</a>
+				<ul class="lista3">
+					<li><a href="#limite">Limitações técnicas</a></li>
+					<li><a href="#vantagens">Vantagens</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><a href="#x1">Comparações técnicas</a></li>
+		</ul>
 	</ul>
 
 </div>
 
+<div>
+
 <h2 id="mine">O que é minecraft?</h2>
 
 <p>
-Minecraft é um jogo eletrônico sandbox de sobrevivência de 2011 desenvolvido e publicado pela desenvolvedora sueca Mojang Studios. Originalmente criado por Markus "Notch" Persson usando a linguagem de programação Java, a primeira versão alfa pública foi lançada em 17 de maio de 2009. O jogo foi desenvolvido continuamente a partir de então, recebendo um lançamento completo em 18 de novembro de 2011. Posteriormente, Persson deixou a Mojang e cedeu o controle do desenvolvimento a Jens "Jeb" Bergensten. Nos anos desde o seu lançamento, o jogo foi portado para diversas plataformas, incluindo smartphones, tablets e diversos consoles de jogos eletrônicos. Em 2014, a Mojang e a propriedade intelectual de Minecraft foram compradas pela Microsoft por US$2.5 bilhões.
+Minecraft <s>ou o melhor jogo de todos</s> é um jogo eletrônico sandbox de sobrevivência de 2011 desenvolvido e publicado pela desenvolvedora sueca Mojang Studios. Originalmente criado por Markus "Notch" Persson usando a linguagem de programação Java, a primeira versão alfa pública foi lançada em 17 de maio de 2009. O jogo foi desenvolvido continuamente a partir de então, recebendo um lançamento completo em 18 de novembro de 2011. Posteriormente, Persson deixou a Mojang e cedeu o controle do desenvolvimento a Jens "Jeb" Bergensten. Nos anos desde o seu lançamento, o jogo foi portado para diversas plataformas, incluindo smartphones, tablets e diversos consoles de jogos eletrônicos. Em 2014, a Mojang e a propriedade intelectual de Minecraft foram compradas pela Microsoft por US$2.5 bilhões.
 </p>
 
 <p>
@@ -51,6 +74,8 @@ Em Minecraft, os jogadores exploram um mundo aberto tridimensional intencionalme
 <p>
 Minecraft é o jogo eletrônico mais vendido de todos os tempos, vendendo mais de 350 milhões de cópias em todas as plataformas até 2025, com mais de 140 milhões de jogadores ativos mensalmente. O jogo recebeu elogios da crítica, ganhou vários prêmios e foi citado como um dos melhores jogos eletrônicos de todos os tempos; redes sociais, paródias, adaptações, produtos e as convenções anuais da Minecon desempenharam papéis importantes na popularização do jogo. Minecraft tem sido usado em ambientes educacionais para ensinar química, desenho assistido por computador e ciência da computação. A franquia Minecraft inclui vários títulos spin-off, como Minecraft: Story Mode (2015), Minecraft Earth (2019), Minecraft Dungeons (2020) e Minecraft Legends (2023). Uma adaptação cinematográfica, intitulada A Minecraft Movie, foi lançada em 2025.
 </p>
+
+</div>
 
 <h2 id="jogar">Jogabilidade</h2>
 
@@ -76,7 +101,7 @@ Minecraft tem duas dimensões alternativas além do mundo superior (o mundo prin
 Minecraft consiste em cinco modos de jogo: <i><b>sobrevivência, criativo, aventura, </b></i> e <i><b>espectador</b></i>. Ele também tem um sistema de dificuldade variável de quatro níveis. Por exemplo, a dificuldade pacífica impede que criaturas hostis desovam, e a dificuldade difícil permite que os jogadores morram de fome se sua barra de fome estiver esgotada.
 </p>
 
-<h2 id="sobreviver">Modo sobrevivência</h2>
+<h3 id="sobreviver">Modo sobrevivência</h3>
 
 <p>
 No modo sobrevivência, os jogadores precisam reunir recursos naturais, como madeira e pedra encontrados no ambiente, para criar certos blocos e itens. Dependendo da dificuldade, criaturas hostis aparecem em áreas mais escuras fora de um determinado raio do personagem, exigindo que os jogadores construam um abrigo à noite. O modo também possui uma barra de vida que é esgotada por ataques de monstros, quedas, afogamentos, queda em lava, asfixiamento, fome e outros eventos. Os jogadores também têm uma barra de fome, que deve ser recarregada periodicamente pela ingestão de alimentos no jogo, exceto em dificuldades pacíficas. Se a barra de fome estiver esgotada, a cura automática será interrompida e, eventualmente, a saúde se esgotará. A saúde reabastece quando os jogadores têm uma barra de fome quase cheia ou continuamente em dificuldade pacífica.
@@ -90,25 +115,25 @@ Os jogadores podem criar uma grande variedade de itens em Minecraft para atender
 O jogo possui um sistema de inventário, permitindo que os jogadores carreguem um número limitedo de itens. Ao morrer, os itens no inventário são descartados e os jogadores reaparecem no ponto de desova, que por padrão é o local onde os jogadores aparecem no jogo pela primeira vez e podem ser redefinidos dormindo na cama. Os itens descartados podem ser recuperados se os jogadores puderem alcançá-los antes que eles desapareçam após 5 minutos. Os jogadores podem adquirir pontos de experiência matando monstros e outros jogadores, minerando, fundindo minérios, criando animais e cozinhando alimentos. Pontos de experiência podem ser gastos em ferramentas, armaduras e armas encantadas. Itens encantados geralmente são mais poderosos, duram mais ou têm outros efeitos especiais.
 </p>
 
-<h2 id="zoio">Modo hardcore</h2>
+<h3 id="zoio">Modo hardcore</h3>
 
 <p>
 O modo hardcore é uma variante do modo sobrevivência bloqueada para a configuração mais difícil e com morte permanente, que exclui permanentemente o mundo se o jogador morrer. Se um jogador morre em um servidor multijogador definido como hardcore, ele é colocado no modo espectador.
 </p>
 
-<h2 id="felipeneto">Modo criativo</h2>
+<h3 id="felipeneto">Modo criativo</h3>
 
 <p>
 No modo criativo, os jogadores têm acesso a todos os recursos e itens do jogo através do menu inventário e podem colocá-los ou removê-los instantaneamente. Os jogadores podem alternar a capacidade de voar livremente pelo mundo do jogo à vontade, e seus personagens não sofrem nenhum dano e não são afetados pela fome. Esse modo de jogo ajuda os jogadores a se concentrarem na construção e criação de projetos de qualquer tamanho, sem perturbações.
 </p>
 
-<h2 id="aventura">Modo aventura</h2>
+<h3 id="aventura">Modo aventura</h3>
 
 <p>
 O modo aventura foi projetado especificamente para que os jogadores pudessem experimentar mapas personalizados criados pelo usuário. A jogabilidade é semelhante ao modo sobrevivência, mas com várias restrições, que podem ser aplicadas ao mundo do jogo pelo criador do mapa. Isso força os jogadores a obter os itens necessários e experimentar aventuras da maneira que o cartógrafo pretender. Outra adição projetada para mapas personalizados é o bloco de comando; esse bloco permite que os cartógrafos expandam as interações com os jogadores por meio de comandos de servidor com script.
 </p>
 
-<h2 id="espectador">Modo espectador</h2>
+<h3 id="espectador">Modo espectador</h3>
 
 <p>
 O modo espectador permite aos jogadores voarem através de blocos e assistir ao jogo sem interagir diretamente. Os jogadores não têm um inventário, mas podem se teletransportar para outros jogadores e visualizar da perspectiva do mesmo ou de uma criatura. Este modo de jogo pode ser acessado somente na edição Java ou para computadores.
@@ -126,19 +151,17 @@ O modo multijogador em Minecraft está disponível através do multijogador dire
 As modificações do Minecraft, popularmente conhecidas como mods, representam um aspecto fundamental da cultura de customização do jogo, com implementações significativamente diferentes entre as edições Java e Bedrock.
 </p>
 
-<h2>Visão geral</h2>
-
 <p>
 Minecraft, desenvolvido pela Mojang Studios, existe em duas versões principais com arquiteturas distintas: a Edição Java (original para PC) e a Edição Bedrock (multiplataforma escrita em C++). Esta diferença técnica fundamental resulta em abordagens radicalmente diferentes para modificações e customizações.
 </p>
 
-<h2>java Edition</h2>
+<h2 id="java">Java Edition</h2>
 
 <p>
 A Edição Java, sendo a versão original do jogo, desenvolveu organicamente uma cena de modificações não-oficial desde seus primórdios (2010-2011). Sua arquitetura baseada em Java e sistema de classes abertas facilitaram a engenharia reversa e manipulação do código.
 </p>
 
-<h3>Sistemas de Carregamento (Loaders):</h3>
+<h3 id="loaders">Sistemas de Carregamento (Loaders)</h3>
 
 <ul>
 	<li><b>Forge (2011)</b> – O primeiro loader amplamente adotado, conhecido por estabilidade e compatibilidade</li>
@@ -146,7 +169,7 @@ A Edição Java, sendo a versão original do jogo, desenvolveu organicamente uma
 	<li><b>LiteLoader</b> – Solução mais leve para mods menores</li>
 </ul>
 
-<h3>Exemplos Notáveis de Mods:</h3>
+<h3 id="exemplos">Exemplos Notáveis de Mods</h3>
 
 <ul>
 	<li><b>Aether:</b> Adiciona dimensão flutuante com conteúdo inédito</li>
@@ -155,7 +178,7 @@ A Edição Java, sendo a versão original do jogo, desenvolveu organicamente uma
 	<li><b>Create:</b> Sistema de engenharia e automação realista</li>
 </ul>
 
-<h2>Bedrock Edition</h2>
+<h2 id="bedrock">Bedrock Edition</h2>
 
 <p>
 A Bedrock Edition introduziu os add-ons como sistema oficial de modificação, permitindo customização através de:
@@ -167,7 +190,7 @@ A Bedrock Edition introduziu os add-ons como sistema oficial de modificação, p
 	<li><b>Scripting</b> – Usando JavaScript para adicionar funcionalidades</li>
 </ul>
 
-<h3>Limitações Técnicas:</h3>
+<h3 id="limite">Limitações Técnicas:</h3>
 
 <ul>
 	<li>Acesso restrito a APIs específicas, sem modificação direta do código núcleo</li>
@@ -175,7 +198,7 @@ A Bedrock Edition introduziu os add-ons como sistema oficial de modificação, p
 	<li>Distribuição primária através do Marketplace oficial</li>
 </ul>
 
-<h3>Vantagens:</h3>
+<h3 id="vantagens">Vantagens:</h3>
 
 <ul>
 	<li>Compatibilidade garantida entre plataformas</li>
@@ -183,7 +206,7 @@ A Bedrock Edition introduziu os add-ons como sistema oficial de modificação, p
 	<li>Suporte oficial da Mojang/Microsoft</li>
 </ul>
 
-<h2>Comparações técnicas</h2>
+<h2 id="x1">Comparações técnicas</h2>
 
 <table>
   <tr>
@@ -217,6 +240,14 @@ A Bedrock Edition introduziu os add-ons como sistema oficial de modificação, p
     <td>Moderada</td>
   </tr>
 </table>
+
+<br><br>
+
+<p class="pergunta">Gostou do que viu?</p>
+
+<a href="pag2.html" class="btnpag2">Clique para se juntar a nós</a>
+
+</div>
 
 </body>
 

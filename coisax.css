@@ -1,0 +1,72 @@
+@media print{
+	.sumario, .btnpag2 {display: none;}
+}
+.pai{
+	font-size: 0.9vw;
+}
+.sumario{
+	border: 0.2em solid white;
+	border-radius: 1.5em;
+	padding: 1.5em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	width: 50vw;
+	text-shadow: 0.1em 0.1em 0.2em lightpink;
+	font-size: 1.5em;
+}
+.lista1{
+	list-style-image: url('bloco.png');
+}
+.lista2{
+	list-style-image: url('nether.png');
+}
+.lista3{
+	list-style-image: url('fim.png');
+}
+.fonte{
+	display: inline-block;
+	margin-left: 36.5vw;
+}
+h1{
+	display: inline-block;
+	margin: 0;
+
+}
+body{
+	background-image: url(background.png);
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+table{
+	width: 60%;
+	border: 2px solid white;
+	border-collapse: collapse;
+}
+td, th{
+	border: 2px solid white;
+	margin: 0;
+	padding: 5px;
+}
+a{
+	color: white;
+	display: inline-block;
+	transition: 1s ease;
+	margin-left: 1em;
+	margin-bottom: 0.3em;
+}
+a:hover{
+	transform: scale(1.3);
+}
+.subtitulo{
+	color: lightgrey;
+}
+.btnpag2{
+	padding: 0.5em;
+	border: 0.1em solid white;
+	border-radius: 0.3em;
+	margin-left: 1.5em;
+}
+.pergunta{
+	margin-left: 1.5em;
+}
