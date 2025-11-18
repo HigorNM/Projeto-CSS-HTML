@@ -1,6 +1,9 @@
 @media print{
 	.sumario, .btnpag2 {display: none;}
 }
+.pai2{
+	font-size: 2.6vh;
+}
 .pai{
 	font-size: 0.9vw;
 }
